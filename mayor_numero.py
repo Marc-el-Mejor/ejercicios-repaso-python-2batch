@@ -7,7 +7,7 @@ while i>0:
         i-=1
     except:
         print("No es un numero Gilipollas")
-numero_mayor=0
+numero_mayor=lista[0]
 for x in lista:
     if numero_mayor>=x:
         numero_mayor=numero_mayor
